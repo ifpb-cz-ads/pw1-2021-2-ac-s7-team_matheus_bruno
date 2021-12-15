@@ -15,14 +15,6 @@ while cont < len(L):
         if not achouP:
             primeiro = 2
     cont += 1
-if achouP:
-    print(f"p: {p} foi encontrado")
-else:
-    print(f"p: {p} não foi encontrado")
-if achouV:
-    print(f"v: {v} foi encontrado")
-else:
-    print(f"v: {v} não foi encontrado")
 if primeiro == 1:
     print("p foi achado antes de v")
 elif primeiro == 2:
